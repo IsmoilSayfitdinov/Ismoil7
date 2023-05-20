@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-block{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text{
+    margin-left: 134px;
+    width: 384px;
+    margin-top: 274px; 
+}
+
+.text > strong{
+    color: #E6B939;
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+
+.text > h1{
+    color: #575445;
+    line-height: 43px;
+    font-size: 36px;
+}
+
+.text >p{
+    color: #575445;
+    line-height:19px ;
+    font-size: 16px;
+}
+
+.p{
+    color: #575445;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+.img{
+    width: 500px;
+    margin-top: 100px;
+}
+

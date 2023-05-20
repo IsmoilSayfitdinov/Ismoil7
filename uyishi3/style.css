@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    display: flex;
+}
+
+.text{
+    margin-top: 500px;
+    margin-left: 104px;
+
+}
+
+.text>strong{
+    color: #E6B939;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+   
+}
+
+.text>h1{
+    color: #575445;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+}
+
+.text>p{
+    width: 384px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+
+.text>b{
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.img{
+    margin-left: 400px;
+    margin-top: 300px;
+}

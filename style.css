@@ -1,0 +1,345 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("./fonts/Poppins-Regular.ttf");
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  
+  .container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: auto;
+  }
+  
+  strong{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E6B939;
+  }
+  
+  h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;  
+    font-family: 'Roboto', sans-serif;
+    color: #575445;
+  }
+  
+  h3{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #575445;
+  }
+  
+  p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+    margin-top: 10px;
+  }
+  
+  nav{
+    min-height: 79px;
+     position: sticky; 
+    top: 0; 
+    background-color: #fff;
+  }
+  
+  .nav__wrapper{
+    display: flex;
+    min-height: 79px;
+    align-items: center;
+  }
+  
+  .nav__logo{
+    flex: 1;
+  }
+  
+  .nav__menu{
+    display: flex;
+    gap: 0 28px;
+    list-style-type: none;
+  }
+  
+  .nav__btn{
+    background-color: #575445;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+  }
+  
+  .nav__btn:nth-child(3){
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  
+  .menu__item > a{
+    color: #222;
+    text-decoration: none;
+  }
+  
+  .banner{
+    min-height: 640px;
+    background-size: cover;
+    background-position-y: center;
+    background-image: url("hero.jpeg");
+  }
+  
+  .banner__content{
+    min-height: 640px;
+    max-width: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner__content > h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 300;
+  }
+  
+  .features{
+    min-height: 100vh;
+  }
+  
+  .features__text{
+    text-align: center;
+    max-width: 538px;
+    margin: auto;
+    padding-top: 100px;
+  }
+  
+  .features__text > p,
+  .features__item-text > p,
+  .features__item-text > a{
+    color: #575445;
+  }
+  
+  .features__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .features__item{
+    border-radius: 10px;
+    width: 379px;
+    min-height: 473px;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  .features__item-text{
+    text-align: center;
+    max-width: 252px;
+  }
+  
+  .features__item-text > p{
+    margin-bottom: 20px;
+  }
+  
+  .features__item-text > a{
+    text-decoration: none;
+  }
+  
+  
+  .features__item:first-child{
+    background-image: url("Konpos.jpg");
+  }
+  
+  .features__item:nth-child(2){
+    background-image: url("odam.jpg");
+  }
+  
+  .features__item:nth-child(3){
+    background-image: url("tog.jpg");
+  }
+  
+  .features__item:nth-child(4){
+    background-image: url("IMAGE.jpg");
+  }
+  
+  .features__item:nth-child(5){
+    background-image: url("Togdagiqiz.jpg");
+  }
+  
+  .features__item:last-child{
+    background-image: url("Krasovka.jpg");
+  }
+
+
+  .img{
+     min-width: 100px;
+  }
+
+
+
+
+  .img__items{
+    margin-left: 25px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    float: left;
+  }
+
+
+  .text{
+    margin-left: 00px;
+    height: 10px;
+    width: 100px;
+    margin-bottom: 500px
+
+  }
+
+  .main-block{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text{
+    margin-left: 134px;
+    width: 384px;
+    margin-top: 274px; 
+}
+
+.text > strong{
+    color: #E6B939;
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+
+.text > h1{
+    color: #575445;
+    line-height: 43px;
+    font-size: 36px;
+}
+
+.text >p{
+    color: #575445;
+    line-height:19px ;
+    font-size: 16px;
+}
+
+.p{
+    color: #575445;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+.img{
+    width: 500px;
+    margin-left: 900px;
+}
+
+.nav-menu{
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.nav-wrap{
+background-image: url(IMAGE\ \(7\).jpg);
+
+}
+
+.list{
+  display: flex;
+  justify-content: flex-end;
+  min-height: 600px;
+}
+
+.manu{
+  display: flex;
+  gap: 0 28px;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  
+  
+  
+
+  
+}
+
+.menu__items{
+  padding: 10px;
+  background: #292C32;
+  color: aliceblue;
+   height: 40px;
+   border-radius: 16px;
+   border: 3px solid #292C32;
+   margin-bottom: 40px;
+
+ 
+  
+  
+}
+
+.box{
+ background: #375C58;
+  width: 1400px;
+  height: 393px;
+}
+
+.text{
+  color: #FAFAFC;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 99px;
+  letter-spacing: 2px;
+
+}
+
+.box>h1{
+  color: #E6B939;
+  text-align: center;
+  line-height: 43px;
+  font-size: 36px;
+}
+
+.text2{
+  color: #FAFAFC;
+  text-align: center;
+  line-height: 19px;
+  font-size: 16px;
+  width: 400px;
+  margin-left: 500px;
+  padding-top: 7px;
+}
+
+.text3{
+  background-color: #FAFAFC;
+  width: 105px;
+  border-radius: 6px;
+  margin-left: 650px;
+  margin-top: 21px;
+ padding: 10px 18px;
+}
